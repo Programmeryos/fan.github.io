@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../blocks/buttons.scss"
+    ],
+    "names": [],
+    "file": "buttons.min.css"
+}

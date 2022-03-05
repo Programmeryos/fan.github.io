@@ -1,0 +1,124 @@
+@media (max-width: 1200px){
+
+}
+@media (max-width: 921px){
+.promo{
+    &__wrapper{
+        align-items: center;
+    }
+}
+.benefits{
+    &__items{
+        justify-content: space-between;
+    }
+    &__item{    
+        padding-bottom: 40px;
+    }
+}
+}
+@media (max-width: 842px){
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .benefits{
+        &__items{
+            justify-content: center;
+        }
+        &__item{    
+            padding-bottom: 40px;
+        }
+    } 
+}
+@media (max-width: 767px){
+.header{
+    &__logo{
+        width: 150px;
+    }
+    &__official{
+        font-size: 10px;
+        span{
+            font-size: 14px;
+        }
+    }
+    &__phone{
+        font-size: 15px;
+    }
+    .button{
+        width: 150px;
+        height: 25px;
+    }
+}
+.promo{
+    &__wrapper{
+        align-items: center;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    .button_promo{
+        width: 290px;
+        height: 40px;
+    }
+    &__link{
+        font-size: 13px;
+        a{
+            font-size: 13px;
+        }
+    }
+    &__icons{
+        justify-content: space-evenly ;
+    }
+}
+}
+@media (max-width: 575px){
+    .header{
+        &__official{
+            display: none;
+        }
+        .button{
+            width: 120px;
+            font-size: 10px;
+        }
+        &__phone{
+            font-size: 13px;
+        }
+    }
+    .promo{
+        padding-bottom: 0;
+        &__wrapepr{
+            align-items: center;
+        }
+        &__icons{
+            flex-wrap: wrap;
+            justify-content: center ;
+            width: 270px;
+        }
+        &__icon{
+            padding-bottom: 20px;
+            &__text{
+                width: 100px;
+                font-size: 10px;
+            }
+        }
+        h1{
+            font-size: 24px;
+        }
+        h2{
+            font-size: 14px;
+        }
+        .button_promo{
+            margin-top: 40px;
+        }
+        &__link{
+            font-size: 10px;
+            a{
+                font-size: 10px;
+            }
+        }
+    }
+}
