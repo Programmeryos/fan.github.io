@@ -1,20 +1,33 @@
 @media (max-width: 1200px){
-
+    .consultation{
+        &__descr{
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
 }
 @media (max-width: 921px){
-.promo{
-    &__wrapper{
-        align-items: center;
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
     }
-}
-.benefits{
-    &__items{
-        justify-content: space-between;
+    .benefits{
+        &__items{
+            justify-content: space-between;
+        }
+        &__item{    
+            padding-bottom: 40px;
+        }
     }
-    &__item{    
-        padding-bottom: 40px;
+    .consultation{
+        h2{
+            font-size: 28px;
+        }
+        &__descr{
+            font-size: 17px;
+        }
     }
-}
 }
 @media (max-width: 870px){
     .promo{
@@ -32,48 +45,56 @@
     } 
 }
 @media (max-width: 767px){
-.header{
-    &__logo{
-        width: 150px;
-    }
-    &__official{
-        font-size: 10px;
-        span{
-            font-size: 14px;
+    .header{
+        &__logo{
+            width: 150px;
+        }
+        &__official{
+            font-size: 10px;
+            span{
+                font-size: 14px;
+            }
+        }
+        &__phone{
+            font-size: 15px;
+        }
+        .button{
+            width: 150px;
+            height: 25px;
         }
     }
-    &__phone{
-        font-size: 15px;
-    }
-    .button{
-        width: 150px;
-        height: 25px;
-    }
-}
-.promo{
-    &__wrapper{
-        align-items: center;
-    }
-    h1{
-        font-size: 34px;
-    }
-    h2{
-        font-size: 17px;
-    }
-    .button_promo{
-        width: 290px;
-        height: 40px;
-    }
-    &__link{
-        font-size: 13px;
-        a{
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+        h1{
+            font-size: 34px;
+        }
+        h2{
+            font-size: 17px;
+        }
+        .button_promo{
+            width: 290px;
+            height: 40px;
+        }
+        &__link{
             font-size: 13px;
+            a{
+                font-size: 13px;
+            }
+        }
+        &__icons{
+            justify-content: space-evenly ;
+        }
+        
+    }
+    .consultation{
+        text-align: center;
+        form{
+            width: 100%;
+            align-items: center;
         }
     }
-    &__icons{
-        justify-content: space-evenly ;
-    }
-}
 }
 @media (max-width: 575px){
     .header{
@@ -118,6 +139,25 @@
             font-size: 10px;
             a{
                 font-size: 10px;
+            }
+        }
+    }
+    .consultation{
+        h2{
+            font-size: 17px;
+            line-height: 24px;
+        }
+        &__descr{
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .feed-form{
+            input{
+                height: 40px;
+            }
+            .button_form{
+                width: 270px;
+                height: 47px;
             }
         }
     }
