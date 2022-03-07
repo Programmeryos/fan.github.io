@@ -34,7 +34,7 @@ $(document).ready(function(){
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
 
-    function togglSlide(item) {
+    function deployment(item) {
         $(item).each(function(i) {
             $(this).on('click', function(e) {
                 e.preventDefault();
@@ -45,6 +45,6 @@ $(document).ready(function(){
         });
     };
 
-    togglSlide('.reviews-item__link');
-    togglSlide('.reviews-item__back');
+    deployment('.reviews-item__link');
+    deployment('.reviews-item__back');
 });
