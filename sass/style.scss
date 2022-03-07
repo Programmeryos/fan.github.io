@@ -4,15 +4,18 @@
 @import 'blocks/buttons';
 @import 'blocks/header';
 @import 'blocks/benefits';
-@import 'base/media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/caruosel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
 
 *{
     font-family: 'MuseoModerno', sans-serif;
 }
 .container{
-    max-width: 942px;
+    max-width: 950px;
     margin: 0 auto;
+    padding: 0;
 }
+@import 'base/media';

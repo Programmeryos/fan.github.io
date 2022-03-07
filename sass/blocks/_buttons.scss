@@ -17,6 +17,10 @@
     &_form{
         width: 303px;
         height: 58px;
-        background-color: $main-color;
+    }
+    &_catalog-item{
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
     }
 }

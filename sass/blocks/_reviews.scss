@@ -1,0 +1,46 @@
+.reviews{
+    padding-bottom: 48px;
+    &__header{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    &-item{
+        margin-top: 60px;
+        display: flex;
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &__img{
+            max-width: 170px;
+            max-height: 170px;
+            margin-right: 60px;
+            margin-left: 30px;
+        }
+        &__user-name{
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 18px;
+            color: #0D0D0D;
+        }
+        &__user-achivements{
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+        &__user-review{
+            max-width: 350px;
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #0D0D0D;
+            margin-right: 20px;
+        }
+        &__link, &__back{
+            display: none;
+        }   
+    }
+}
