@@ -47,4 +47,22 @@ $(document).ready(function(){
 
     deployment('.reviews-item__link');
     deployment('.reviews-item__back');
+
+    $('[data-modal=consultation]').on('click', function(){
+        $('.overlay, #consultation').fadeIn();
+    });
+
+    $('.modal__close').on('click', function(){
+        $('.overlay, #consultation, #order, #thanks').fadeOut();
+    });
+    
+    $('.button_catalog-item').on('click', function(){
+        $('.overlay, #order').fadeIn();
+    });
+
+    $('.button_catalog-item').each(function(i){
+        $(this).on('click', function(){
+            $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text())
+        })
+    });
 });

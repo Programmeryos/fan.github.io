@@ -39,7 +39,7 @@
                 border:none;
                 background-color: $main-color;
                 &:focus{
-                    background-color: rgb(100, 23, 23);
+                    background-color: $main-color;
                     outline: none;
                 }
             }
