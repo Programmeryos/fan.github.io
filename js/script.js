@@ -65,4 +65,25 @@ $(document).ready(function(){
             $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text())
         })
     });
+
+    $('form').submit( function () {
+        e.preventDefault();
+
+        if (!$(this).valid()) {
+            return;
+        }
+
+        $.ajax({
+            type:'POST', 
+            url:'mailer/smart.php',
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find('input').val('');
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadiIn('slow');
+
+            $('form').trigger('reset');
+        });
+        return false;
+    });
 });
